@@ -8,16 +8,18 @@ Project Funcionalities:
 
 ## Test Instructions:
 
-```
 ## - Download and install Locust 
+```
 brew install locust
-
+```
 ## - Confirm Locust installation
+```
 locust -V
-
+```
 ## - Execute Locust
+```
 locust -f charge.py
-
+```
 ## - Open your browser
 get your external IP and paste in your browser, followed by the port configured in locust (stardard is 8089)
 > Ex.: http://192.168.101.6:8089/
