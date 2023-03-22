@@ -23,6 +23,7 @@ locust -f charge.py
 ## - Open your browser
 get your external IP and paste in your browser, followed by the port configured in locust (stardard is 8089)
 > Ex.: http://192.168.101.6:8089/
+
 The Locust innitial page will open.
 
 ## - Test your application
